@@ -1,0 +1,174 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: source-code-pro, Menlo, Monaco
+}
+
+.image-1{
+	margin-top:3rem;
+	margin-left: 22rem;
+}
+
+.align-btn{
+	margin-left:3rem;
+	margin-right: 3rem;
+	background-color: #c5c5fa;
+	height: 15rem;
+}
+
+.para{
+	margin-left:22rem;
+}
+
+
+
+
+.btn-1{
+	position: absolute;
+	margin-left: 0rem;
+	height: 70px;
+	width:70px;
+	text-decoration: none;
+	border-radius: 50px;
+	border: 3px solid #e4dddd;
+	background: #fff;
+	margin-left:5rem;
+}
+
+.btn-2{
+	position: absolute;
+	height: 70px;
+	width:70px;
+	text-decoration: none;
+	border-radius: 50px;
+	border: 3px solid #e4dddd;
+	background: #fff;
+	margin-left:0rem;
+	position: absolute;
+	margin-left:12rem;
+}
+
+.js{
+	position: absolute;
+	margin-top:5rem;
+	margin-left: 20rem;
+}
+.css{
+	position: absolute;
+	margin-top:5rem;
+	margin-left: 13rem;
+}
+.html{
+	position: absolute;
+	margin-top:5rem;
+	margin-left: 5.5rem;
+}
+.react{
+	position: absolute;
+	margin-top:5rem;
+	margin-left: 28.5rem;
+}
+.btn-3{
+	position: absolute;
+	height: 70px;
+	width:70px;
+	text-decoration: none;
+	border-radius: 50px;
+	border: 3px solid #e4dddd;
+	background: #fff;	
+	margin-left:20rem;
+	margin-top:0rem;
+}
+
+.row{
+	margin-left: 5rem;
+}
+
+.btn-4{
+	position: absolute;
+	height: 70px;
+	width:70px;
+	text-decoration: none;
+	border-radius: 50px;
+	border: 3px solid #e4dddd;
+	background: #fff;	
+	margin-left:28rem;
+}
+
+.btn-1:hover{
+	border-color: blue;
+}
+
+.btn-2:hover{
+	border-color: blue;
+}
+
+.btn-3:hover{
+	border-color: blue;
+}
+
+.btn-4:hover{
+	border-color: blue;
+}
+
+@media only screen and (max-width: 500px){
+	
+
+	.para{
+	margin-left:2rem;
+}
+	.body{
+		width: 100%;
+		margin-right:10rem;
+	}
+
+	.align-btn{
+		width: 100%;
+		margin:0;
+	}
+
+	.btn-1{
+		position:absolute;
+		margin-left:-4rem;
+	}
+
+	.html{
+		margin-top: 5rem;
+		margin-left: -3.5rem;
+	}
+
+	.btn-2{
+		margin-left:0.1rem;
+	}
+
+	.css{
+		margin-top: 5rem;
+		margin-left: 1rem;
+	}
+
+	.btn-3{
+		margin-left:4rem;
+	}
+
+	.js{
+		margin-top: 5rem;
+		margin-left: 4rem;
+	}
+
+	.btn-4{
+		margin-left:8rem;
+	}
+
+	.react{
+		margin-top: 5rem;
+		margin-left: 8.5rem;
+	}
+
+	.image-1{
+		position: absolute;
+		margin: 0;
+		width: 70%;
+	}
+
+
+}
